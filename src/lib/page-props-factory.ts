@@ -15,6 +15,7 @@ import { componentModule } from 'temp/componentFactory';
 import pkg from '../../package.json';
 import { StyleguideSitecoreContextValue } from './component-props';
 
+
 /**
  * Extract normalized Sitecore item path from query
  * @param {ParsedUrlQuery | undefined} params
