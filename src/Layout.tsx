@@ -7,7 +7,7 @@ import {
   Placeholder,
   VisitorIdentification,
   withSitecoreContext,
-  getPublicUrl,
+  getPublicUrl
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { StyleguideSitecoreContextValue } from 'lib/component-props';
 
