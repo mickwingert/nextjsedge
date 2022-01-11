@@ -8,7 +8,6 @@ import NProgress from 'nprogress';
 //  nprogress provides a loading indicator on page/route changes
 // Remove these in package.json as well if removed here.
 //import 'bootstrap/dist/css/bootstrap.css';
-import 'styles/globals.css'
 import 'nprogress/nprogress.css';
 import 'assets/app.css';
 
