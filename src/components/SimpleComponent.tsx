@@ -8,7 +8,7 @@ type SimpleComponentProps = {
 
 const SimpleComponent = (props: SimpleComponentProps): JSX.Element => (
     <div>
-        <Text field={props.fields.MainHeading} className="text-blue-600"/>
+        <Text className="text-3xl font-bold underline" field={props.fields.MainHeading} tag="h2"/>
     </div>
 );
 
