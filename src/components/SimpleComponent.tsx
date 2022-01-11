@@ -17,7 +17,7 @@ const SimpleComponent = (props: StyleguideComponentParamsProps): JSX.Element => 
     return (
         <div>
             {/*<Text className={props.params.cssClass} field={props.fields.MainHeading} tag="h2"/> */}
-            <Text className="test" field={props.fields.MainHeading} tag="h2"/>
+            <Text className={cssClass} field={props.fields.MainHeading} tag="h2"/>
         </div>
     );
 };
